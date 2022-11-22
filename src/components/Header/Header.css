@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+/* font-family: 'Great Vibes', cursive; */
+
+.header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: #a3a7a9;
+   
+}
+.header >a >h1{
+    font-family: 'Great Vibes', cursive;
+    font-weight: 300;
+    color: #a3a7a9;
+ 
+}
+.header__navmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10rem;
+   
+}
+.header__navitems{
+    padding: 0 20px;
+    font-weight: 300;
+    font-size: 19px;
+    letter-spacing: 0.167em;
+    color: #a3a7a9;
+}
+.header__navitems:hover{
+    color: #b3755e;
+}
+.header__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.header__drawer{
+    display: none;
+}
+.spacer{
+    width: 100%;
+    height: 7rem;
+}
+.drawerItemAccount{
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    color: #aaa;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header__navmenu{
+        display: none;
+    }
+    .header >a >h1{
+        font-size: 18px;
+        margin: 0 5px;
+     
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .header__navmenu{
+        display: none;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .header__navmenu{
+        display: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .header{
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333333;
+        color: #a3a7a9;
+    }
+    .header >a >h1{
+        font-family: 'Great Vibes', cursive;
+        font-weight: 300;
+        color: #a3a7a9;
+     
+    }
+    .header__navmenu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 10rem;
+       
+    }
+    .header__navitems{
+        padding: 0 20px;
+        font-weight: 300;
+        font-size: 19px;
+        letter-spacing: 0.167em;
+    }
+    .header__navitems:hover{
+        color: #b3755e;
+    }
+    .header__icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    .header__drawer{
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .header{
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333333;
+        color: #a3a7a9;
+    }
+    .header >a >h1{
+        font-family: 'Great Vibes', cursive;
+        font-weight: 300;
+        color: #a3a7a9;
+     
+    }
+    .header__navmenu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 10rem;
+       
+    }
+    .header__navitems{
+        padding: 0 20px;
+        font-weight: 300;
+        font-size: 19px;
+        letter-spacing: 0.167em;
+    }
+    .header__navitems:hover{
+        color: #b3755e;
+    }
+    .header__icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    .header__drawer{
+        display: none;
+    }
+
+}

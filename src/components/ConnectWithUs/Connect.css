@@ -1,0 +1,14 @@
+.connect{
+    padding:56px 0;
+    text-align: center;
+}
+
+.connect__socialicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.connect__socialicon > *{
+    margin: 0 .5rem !important;
+}

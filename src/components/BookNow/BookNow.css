@@ -1,0 +1,58 @@
+.booknow__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background-color: #be615a;
+    height: 20rem;
+
+}
+.booknow__contentWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white !important;
+    height: 100%;
+}
+.booknow__contentWrapper > h1{
+    font-family: 'Great Vibes', cursive;
+    font-weight: 200;
+    font-size: 4rem;
+    word-wrap: normal;
+}
+.booknow__contentWrapper > h6{
+    font-weight: 200;
+    font-size: 1.2rem;
+    line-height: 1.5
+}
+.booknow__btn{
+    margin-top: 18px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 13rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    transition: .1s;
+    cursor: pointer;
+}
+.booknow__btn:hover{
+    background-color: white;
+    color: black;
+    transition: .1s;
+}
+    
+@media screen and(min-width:440px) and (max-width:478px) {
+    .booknow__contentWrapper > h1{
+        
+        font-size: 2.8rem;
+    }
+}
+@media screen and (max-width:435px) {
+    .booknow__contentWrapper > h1{
+        
+        font-size: 2rem;
+    }
+}

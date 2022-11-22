@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #333333;
+    color: white !important;
+}
+.footer > h5{
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:1050px) {
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    
+}

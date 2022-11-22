@@ -1,0 +1,28 @@
+.frequentlyContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.frequentlyHeading{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+.frequentlyHeading > h1{
+    color: rgb(89, 89, 89);
+    line-height: 1.4;
+    font-size: 22px;
+    letter-spacing: 0.091em;
+    overflow-wrap: break-word;
+    font-weight: 500;
+}
+.frequentlyHeading >p{
+    margin-top: 1rem;
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+    overflow-wrap: break-word;
+    text-align: center;
+}
